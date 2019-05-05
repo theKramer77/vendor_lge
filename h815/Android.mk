@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),h815)
+ifneq ($(filter h815 h815_usu, $(TARGET_DEVICE)),)
 
 endif
