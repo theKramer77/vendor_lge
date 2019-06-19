@@ -23,9 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h815/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/h815/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/h815/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
-    vendor/lge/h815/proprietary/vendor/etc/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcmdhd.bin \
-    vendor/lge/h815/proprietary/vendor/etc/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/h815/proprietary/vendor/etc/firmware/fw_bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fw_bcmdhd_mfg.bin \
     vendor/lge/h815/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/h815/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/h815/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -33,5 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h815/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/h815/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/h815/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/h815/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/vendor/firmware/BCM4335_BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/h815/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/h815/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so
